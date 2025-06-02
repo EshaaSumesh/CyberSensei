@@ -16,8 +16,8 @@ except ImportError as e:
 app = Flask(__name__)
 CORS(app)
 
-# Set API Key directly (avoid dependency on external config)
-API_KEY = "AIzaSyDBUkjIXf1jhNdx2z6H2ZsJqDC1dpXPV68"
+
+API_KEY = "lol"
 genai.configure(api_key=API_KEY)
 
 # Points system configuration
